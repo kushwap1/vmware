@@ -1,6 +1,6 @@
 # vmware assignment
 
-Python service running on K8s accessing 2 urls and querying status code 503, 200 and getting response time.
+This Python service running on K8s accessing 2 urls and querying status code 503, 200 and getting response time.
 
 This service uses prometheus_client library to start a http server and using Summary instrumenting metric injesting request_processing_seconds metric into prometheus.
 
